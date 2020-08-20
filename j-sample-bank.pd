@@ -150,7 +150,7 @@
 #X text 160 54 Arg2 = how many samples;
 #X obj 19 206 clone -s 1 \$2 j-sample-bank-voice \$1;
 #X text 160 81 Arg3 = path to textfile to save paths;
-#X msg 53 159 vis 2 1;
+#X msg 53 160 vis 2 1;
 #X connect 0 0 1 0;
 #X connect 1 0 4 0;
 #X connect 6 0 4 0;
