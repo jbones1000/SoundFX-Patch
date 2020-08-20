@@ -1,0 +1,6 @@
+1 1 /sdcard/Patches/SoundFX-Patch/samples/FLEXTNSS.wav;
+2 1 /sdcard/Patches/SoundFX-Patch/samples/MaxV - KorgM1 - Whip!.wav
+;
+3 1 /sdcard/Patches/SoundFX-Patch/samples/MaxV - KorgM1 - whoosh.wav
+;
+4 2 /sdcard/Patches/SoundFX-Patch/samples/RAINSTICK.aif;
