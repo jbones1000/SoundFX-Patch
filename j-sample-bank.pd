@@ -7,7 +7,7 @@
 #X obj 360 78 r \$0-2-text;
 #X obj 82 363 list trim;
 #X obj 82 391 s \$0-2-text;
-#N canvas 905 239 885 401 openpanel-stuff 0;
+#N canvas 555 239 885 401 openpanel-stuff 0;
 #X obj 35 4 inlet;
 #X obj 35 60 openpanel;
 #X text 154 7 get absolute path as a symbol;
@@ -151,8 +151,6 @@
 #X obj 19 206 clone -s 1 \$2 j-sample-bank-voice \$1;
 #X text 160 81 Arg3 = path to textfile to save paths;
 #X msg 53 159 vis 2 1;
-#X obj 56 94 print wtf;
 #X connect 0 0 1 0;
-#X connect 1 0 7 0;
 #X connect 1 0 4 0;
 #X connect 6 0 4 0;
