@@ -1,6 +1,6 @@
 #N canvas 263 234 450 300 12;
 #X obj 19 12 inlet;
-#N canvas 425 64 658 600 messages 0;
+#N canvas 425 64 658 600 messages 1;
 #X obj 37 37 inlet;
 #X text 356 51 load and save paths to samples;
 #X obj 37 61 route load save init;
@@ -87,7 +87,7 @@
 #X obj 113 318 text search \$1-paths;
 #X obj 166 246 1;
 #X obj 201 376 text get \$1-paths;
-#X obj 201 548 outlet;
+#X obj 251 457 outlet;
 #X obj 113 342 route bang -1;
 #X obj 201 400 list split 1;
 #X connect 0 0 1 0;
