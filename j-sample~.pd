@@ -29,8 +29,8 @@
 #X msg 401 302 stop;
 #X obj 203 111 t b f, f 13;
 #X text 84 22 velocity;
-#X obj 205 382 j-sample-voice~;
-#X obj 372 386 j-sample-voice~;
+#X obj 205 382 j-sample-voice~ \$1;
+#X obj 372 386 j-sample-voice~ \$1;
 #X connect 1 0 23 0;
 #X connect 1 1 28 0;
 #X connect 2 0 3 0;
