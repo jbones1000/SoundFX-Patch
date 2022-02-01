@@ -1,4 +1,4 @@
-#N canvas 148 99 450 300 12;
+#N canvas 263 234 450 300 12;
 #X obj 19 12 inlet;
 #N canvas 425 64 658 600 messages 0;
 #X obj 37 37 inlet;
@@ -89,6 +89,7 @@
 #X obj 201 376 text get \$1-paths;
 #X obj 201 548 outlet;
 #X obj 113 342 route bang -1;
+#X obj 201 400 list split 1;
 #X connect 0 0 1 0;
 #X connect 2 0 4 0;
 #X connect 3 0 2 0;
@@ -106,8 +107,9 @@
 #X connect 12 0 11 0;
 #X connect 13 0 17 0;
 #X connect 14 0 7 1;
-#X connect 15 0 16 0;
+#X connect 15 0 18 0;
 #X connect 17 2 15 0;
+#X connect 18 1 16 0;
 #X restore 183 425 pd big init;
 #N canvas 0 25 450 300 if-empty-dont-save 0;
 #X obj 74 25 inlet;
