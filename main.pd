@@ -581,7 +581,7 @@
 #X connect 15 0 3 0;
 #X restore 23 152 pd samples;
 #X obj 317 254 j-sample-bank howdy 12 samples;
-#X msg 595 215 3;
+#X msg 595 215 8;
 #X connect 0 0 10 0;
 #X connect 1 0 2 0;
 #X connect 2 0 11 0;

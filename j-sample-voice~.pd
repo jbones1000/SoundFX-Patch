@@ -193,7 +193,7 @@ readL readR stereo, f 71;
 #X text 149 34 bang;
 #X text 270 490 one shot or loop?;
 #X obj 199 665 outlet;
-#N canvas 0 25 450 300 stop-dsp 0;
+#N canvas 4 50 450 300 stop-dsp 0;
 #X obj 62 22 inlet;
 #X msg 108 86 stop;
 #X obj 62 136 del 8;
