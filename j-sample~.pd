@@ -3,7 +3,7 @@
 #X obj 31 83 sel 0, f 25;
 #X obj 240 138 + 1;
 #X obj 240 170 == 1;
-#X obj 205 441 outlet~;
+#X obj 205 471 outlet~;
 #X obj 652 449 r \$0-pass-the-velocity;
 #X text 727 475 use this with an envelope;
 #X obj 31 253 s \$0-right-stop;
@@ -12,7 +12,7 @@
 #X obj 387 329 r \$0-right-stop;
 #X msg 63 163 stop;
 #X msg 31 229 stop;
-#X obj 466 274 r \$0-messages;
+#X obj 537 336 r \$0-messages;
 #X obj 398 43 s \$0-messages;
 #X obj 31 23 inlet;
 #X obj 398 20 inlet;
